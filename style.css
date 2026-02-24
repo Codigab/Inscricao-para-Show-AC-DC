@@ -1,1 +1,82 @@
 
+/* RESET BÁSICO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CORPO DO SITE */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #000000, #1a1a1a);
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+/* VÍDEO */
+iframe {
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+/* TÍTULO PRINCIPAL */
+h1 {
+    font-size: 48px;
+    color: #00b0c4;
+    margin-bottom: 10px;
+}
+
+/* SUBTÍTULO */
+h2 {
+    font-size: 24px;
+    margin-bottom: 25px;
+    color: #ffffff;
+}
+
+/* BOTÃO */
+.botao {
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: #00b0c4;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-bottom: 30px;
+}
+
+
+/* PARÁGRAFO */
+p {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+/* TABELA */
+table {
+    margin: auto;
+    width: 60%;
+    background-color: #111;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #00b0c4;
+    padding: 15px;
+    font-size: 18px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #333;
+}
+
+tr:hover {
+    background-color: #222;
+}

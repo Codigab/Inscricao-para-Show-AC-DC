@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição</title>
+    <link rel="stylesheet" href="incricacao.css">
+</head>
+
+<body>
+
+    <h1>INSCRIÇÃO</h1>
+
+    <form id="inscricao">
+
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" placeholder="Insira seu nome" required>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Insira seu email" required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" name="telefone" id="telefone" placeholder="Insira seu telefone">
+
+        <label>Tipo de Ingresso:</label>
+
+        <div class="opcoes">
+            <input type="radio" name="ingresso" id="pista" value="Pista">
+            <label for="pista">Pista</label>
+
+            <input type="radio" name="ingresso" id="vip" value="VIP">
+            <label for="vip">VIP</label>
+
+            <input type="radio" name="ingresso" id="premium" value="Premium">
+            <label for="premium">Premium</label>
+        </div>
+
+        <label>Deseja receber notificações por e-mail?</label>
+
+        <div class="opcoes">
+            <input type="radio" name="notificacao" id="sim" value="Sim">
+            <label for="sim">Sim</label>
+
+            <input type="radio" name="notificacao" id="nao" value="Nao">
+            <label for="nao">Não</label>
+        </div>
+
+        <button type="submit">Confirmar</button>
+
+    </form>
+
+</body>
+
+</html>
